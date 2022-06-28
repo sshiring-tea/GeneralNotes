@@ -26,3 +26,5 @@ output:
 ```
 
 Of, to specify an output directory only: ```output_dir='C:/path/to/output' ```
+
+Adapted from: https://stackoverflow.com/questions/28894515/rmarkdown-directing-output-file-into-a-directory
