@@ -16,15 +16,13 @@ an directory only (in which case the markdown doc's filename will be used) or we
 
 ``` r
 ---
-...
 knit: (function(inputFile, encoding) { 
       rmarkdown::render(inputFile,
                         encoding=encoding, 
                         output_file='C:/path/to/output/output.html')})
 output:
   slidy_presentation: default
-...
 ---
 ```
 
-Of, to specify an output directory only: ```r output_dir='C:/path/to/output' ```
+Of, to specify an output directory only: ```output_dir='C:/path/to/output' ```
